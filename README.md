@@ -11,7 +11,7 @@ https://github.com/godlygeek/tabular
 
     Plugin 'gg/tabular'
 
-[![asciicast](https://asciinema.org/a/ZhNTgNSwzEN3bRC8LZhsTAdyG.png)](https://asciinema.org/a/ZhNTgNSwzEN3bRC8LZhsTAdyG)
+[![asciicast](https://asciinema.org/a/SpLpJaoLLfYZDfDurw1uVMpeD.png)](https://asciinema.org/a/SpLpJaoLLfYZDfDurw1uVMpeD)
 
 ## Correctly Indented Breakpoint
 
