@@ -11,10 +11,7 @@ https://github.com/godlygeek/tabular
 
     Plugin 'gg/tabular'
 
-
 [![asciicast](https://asciinema.org/a/ZhNTgNSwzEN3bRC8LZhsTAdyG.png)](https://asciinema.org/a/ZhNTgNSwzEN3bRC8LZhsTAdyG)
-
-
 
 ## Correctly Indented Breakpoint
 
@@ -27,7 +24,7 @@ matter where you are with the cursor:
 [![asciicast](https://asciinema.org/a/LCx3dt7uOT7HmwLvF742Mtv6Q.png)](https://asciinema.org/a/LCx3dt7uOT7HmwLvF742Mtv6Q)
 
 
-## Wrapping try-execept around a problematic line
+## Wrapping try-except around a problematic line
 
     map <Leader>e Otry:<Esc>j^i<TAB><Esc>oexcept Exception as ex:<CR>import pdb;pdb.set_trace()<Esc>^
 
@@ -40,8 +37,8 @@ hitting `,e`:
 
 ### Pastemode
 
-Use neovim - it is automatically going to pastemode at inserts
-or https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode (did not try)
+Use neovim - it is automatically going to pastemode at inserts.
+Or [this](https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode) (did not try though)
 
 
 
