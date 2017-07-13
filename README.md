@@ -5,13 +5,23 @@ To record stuff from the terminal:
 - `asciinema rec --title="vim tabularize" -w 0.5`
 - when done: press enter -> you get a link, there you get the markdown for the recording.
 
+To create animated gifs:
+
+    brew install ttygif
+    ttyrec
+    ...
+    exit
+    ttygif ttyrecord
+
+
+
 ## Tabularize
 
 https://github.com/godlygeek/tabular
 
     Plugin 'gg/tabular'
 
-[![asciicast](https://asciinema.org/a/SpLpJaoLLfYZDfDurw1uVMpeD.png)](https://asciinema.org/a/SpLpJaoLLfYZDfDurw1uVMpeD)
+![](./img/tab.gif)
 
 ## Correctly Indented Breakpoint
 
@@ -42,3 +52,4 @@ Or [this](https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-whe
 
 
 
+I,q
