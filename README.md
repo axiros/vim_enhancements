@@ -51,7 +51,10 @@ More tab. actions in one command:
 hitting `,b` inserts a breakpoint the line above, correctly indented, no
 matter where you are with the cursor:
 
-[![asciicast](https://asciinema.org/a/LCx3dt7uOT7HmwLvF742Mtv6Q.png)](https://asciinema.org/a/LCx3dt7uOT7HmwLvF742Mtv6Q)
+<a href="https://asciinema.org/a/LCx3dt7uOT7HmwLvF742Mtv6Q">
+<img width="200px" src="https://asciinema.org/a/LCx3dt7uOT7HmwLvF742Mtv6Q.png"/>
+</a>
+
 
 
 ## Wrapping try-except around a problematic line
@@ -60,7 +63,10 @@ matter where you are with the cursor:
 
 hitting `,e`:
 
-[![asciicast](https://asciinema.org/a/MzMg0nExfS3mtQTP4wZhTyEr9.png)](https://asciinema.org/a/MzMg0nExfS3mtQTP4wZhTyEr9)
+<a href="https://asciinema.org/a/MzMg0nExfS3mtQTP4wZhTyEr9">
+<img width="200px" src="https://asciinema.org/a/MzMg0nExfS3mtQTP4wZhTyEr9.png"/>
+</a>
+
 
 
 ## General Tips
@@ -72,4 +78,3 @@ Or [this](https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-whe
 
 
 
-I,q
