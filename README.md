@@ -21,12 +21,17 @@ https://github.com/godlygeek/tabular
 
     Plugin 'gg/tabular'
 
-![](./img/tab.gif)
+<img width="200px" src="./img/tab.gif"></img>
 
-More tab. actions in one command (leader set to `,`):
+### Shortcuts in .vimrc
+
+E.g. for markdown tables (shows how to escape the pipe):
+
+    map <Leader>t\| :Tabularize/\|<CR>
+
+More tab. actions in one command:
 
     map <Leader>ts :Tabularize/(<CR><bar>:Tabularize/)<CR><bar>:Tabularize/:<CR>
-    map <Leader>t\| :Tabularize/\|<CR>
 
 
 | before               | shortcut | after                |
@@ -34,6 +39,7 @@ More tab. actions in one command (leader set to `,`):
 | ![](./img/tab1.png)  | `,ts`    | ![](./img/tab2.png)  |
 | ![](./img/tabt1.png) | `,t❘`    | ![](./img/tabt2.png) |
 
+(leader set to `,`)
 
 
 
