@@ -15,13 +15,27 @@ To create animated gifs:
 
 
 
-## Tabularize
+## [Tabularize](http://vimcasts.org/episodes/aligning-text-with-tabular-vim/)
 
 https://github.com/godlygeek/tabular
 
     Plugin 'gg/tabular'
 
 ![](./img/tab.gif)
+
+More tab. actions in one command (leader set to `,`):
+
+    map <Leader>ts :Tabularize/(<CR><bar>:Tabularize/)<CR><bar>:Tabularize/:<CR>
+    map <Leader>t\| :Tabularize/\|<CR>
+
+
+| before               | shortcut | after                |
+| -                    | -        | -                    |
+| ![](./img/tab1.png)  | `,ts`    | ![](./img/tab2.png)  |
+| ![](./img/tabt1.png) | `,t❘`    | ![](./img/tabt2.png) |
+
+
+
 
 ## Correctly Indented Breakpoint
 
